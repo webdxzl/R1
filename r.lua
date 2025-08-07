@@ -573,7 +573,6 @@ task.spawn(function()
     while true do
         task.wait(60)
         TrollDropdown:Refresh(GetAllPlayerNames())
-        Dropdown1:Refresh(GetAllPlayerNames())
     end
 end)
 
